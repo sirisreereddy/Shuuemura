@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="com.loreal.automation.utilities.TestNGCustomReportListener" />
+	</listeners>
+	 <test name="ChromeTest" thread-count="2" parallel="classes">
+		<parameter name="browser" value="HeadlessChrome" />
+  		 	<classes>				  
+  		 
+            
+             <class name="com.loreal.automation.test.Shuuemura.HomePage.UQSU36" />
+	        <class name="com.loreal.automation.test.Shuuemura.HomePage.UQSU73" />
+			
+			
+			<class name="com.loreal.automation.test.Shuuemura.PDP.UQSU55" />
+			<class name="com.loreal.automation.test.Shuuemura.PDP.UQSU53" />
+			<class name="com.loreal.automation.test.Shuuemura.PDP.UQSU54" />
+			
+			
+			<class name="com.loreal.automation.test.Shuuemura.ProductSearch.UQSU52" />
+			
+			
+			<class name="com.loreal.automation.test.Shuuemura.PLP.UQSU51" />
+			<class name="com.loreal.automation.test.Shuuemura.PLP.UQSU50" />
+			<class name="com.loreal.automation.test.Shuuemura.PLP.UQSU52" />
+						
+			<class name="com.loreal.automation.test.Shuuemura.ShoppingBag.UQSU59" />
+			<class name="com.loreal.automation.test.Shuuemura.ShoppingBag.UQSU57" />
+			<class name="com.loreal.automation.test.Shuuemura.ShoppingBag.UQSU58" />
+			<class name="com.loreal.automation.test.Shuuemura.ShoppingBag.UQSU56" /> 
+			<class name="com.loreal.automation.test.Shuuemura.ShoppingBag.UQSU76" /> 		
+			
+			
+			<class name="com.loreal.automation.test.Shuuemura.UserRegistration.UQSU37" />
+			<class name="com.loreal.automation.test.Shuuemura.UserRegistration.UQSU38" />
+			<class name="com.loreal.automation.test.Shuuemura.UserRegistration.UQSU39" /> 
+			<class name="com.loreal.automation.test.Shuuemura.UserRegistration.UQSU40" />
+			<class name="com.loreal.automation.test.Shuuemura.UserRegistration.UQSU43" />
+			<class name="com.loreal.automation.test.Shuuemura.UserRegistration.UQSU44" />
+			<class name="com.loreal.automation.test.Shuuemura.UserRegistration.UQSU45" />			
+			<class name="com.loreal.automation.test.Shuuemura.UserRegistration.UQSU46" />
+			<class name="com.loreal.automation.test.Shuuemura.UserRegistration.UQSU47" />
+			<class name="com.loreal.automation.test.Shuuemura.UserRegistration.UQSU48" />
+			<class name="com.loreal.automation.test.Shuuemura.UserRegistration.UQSU49" />
+			<class name="com.loreal.automation.test.Shuuemura.UserRegistration.UQSU75" />
+			<class name="com.loreal.automation.test.Shuuemura.UserRegistration.UQSU76" /> 
+			
+			`	
+			<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU61" />
+			<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU62" />
+			<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU63" />
+			<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU60" />
+			<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU66" /> 
+			<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU65" />
+			<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU68" />
+			<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU64" />
+			<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU71" />   
+			<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU72" />  
+			<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU70" />  
+			
+			
+						<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU75" />  
+						<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU79" />  
+						
+						<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU76" />
+						<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU80" />  
+						  
+						<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU77" />
+						<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU81" />  
+						  
+						<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU78" />  
+						<class name="com.loreal.automation.test.Shuuemura.Checkout.UQSU82" />    
+
+ 		</classes>
+	</test> 
+	</suite>
+
